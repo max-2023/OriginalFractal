@@ -4,7 +4,7 @@ public void setup() {
   fill(51, 157, 255);
   size(800, 800);
   background(0);
-  createCircle(400, 400, 500, 80);
+  createCircle(400, 400, 500, 40);
 }
 
 public void createCircle(float x, float y, float extent, int count) {
