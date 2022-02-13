@@ -12,6 +12,4 @@ public void createCircle(float x, float y, float extent, int count) {
  circle(x, y, extent);
  createCircle(x-4, y-4, extent/1.08, count-1);
 
-
-
 }
