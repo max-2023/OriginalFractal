@@ -4,12 +4,12 @@ public void setup() {
   fill(51, 157, 255);
   size(800, 800);
   background(0);
-  createCircle(400, 400, 500, 40);
+  createCircle(400, 400, 500, 2020);
 }
 
 public void createCircle(float x, float y, float extent, int count) {
  if (count == 0) return;
- circle(x, y, extent);
+ ellipse(x, y, extent, extent);
  createCircle(x-4, y-4, extent/1.08, count-1);
 
 }
